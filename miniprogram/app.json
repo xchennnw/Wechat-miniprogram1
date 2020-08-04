@@ -1,0 +1,43 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/p1/p1",
+    "pages/p2/p2",
+    "pages/interest/interest",
+    "pages/addIn/addIn"
+  ],
+  "window": {
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "你的小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#ffffff",
+    "selectedColor": "#599a9a",
+    "list": [
+      {
+        "selectedIconPath": "images/home1.png",
+        "iconPath": "images/home2.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/person1.png",
+        "iconPath": "images/person2.png",
+        "pagePath": "pages/p2/p2",
+        "text": "查找同事"
+      },
+      {
+        "selectedIconPath": "images/xingqu1.png",
+        "iconPath": "images/xingqu2.png",
+        "pagePath": "pages/interest/interest",
+        "text": "兴趣"
+      }
+    ]
+  }
+}

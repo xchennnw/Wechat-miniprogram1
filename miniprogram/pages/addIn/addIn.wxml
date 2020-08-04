@@ -1,0 +1,43 @@
+<!--miniprogram/pages/addIn/addIn.wxml-->
+ <view class="container">
+ 
+ 
+ <view id="msg1"> 
+       <input id="msg2" type='text' placeholder="输入新话题" bindinput="search1" />
+       <button id="msg3" bindtap="addSubtopic" hover-class="hover1"> 
+         添加
+       </button>
+</view>
+
+<view wx:if="{{a&&b==false}}" id="msg5">  
+    <view id="msg5">  
+        <view id="msg6" >已有这些相关的话题：</view>  
+        <view id="msg7">------  </view>  
+        <view  wx:for="{{n}}">                                
+           <view id="msg4"> {{item.topic}} </view>         
+       </view>     
+    </view>    
+        
+</view>
+
+<view wx:if="{{b}}">
+    <input id="msg13" type='text' placeholder="1-2句话详细描述" bindinput="getSubtopic" />
+    <button id="msg14" bindtap="poTopic" hover-class="hover1"> 
+         OK
+    </button>
+</view>
+
+
+
+<view wx:if="{{e&&d}}" id="msg12">
+     添加完成
+</view>
+<view wx:if="{{e&&d==false}}" id="msg12">
+     已有此话题，请注意查看
+</view>
+
+
+
+
+
+</view>

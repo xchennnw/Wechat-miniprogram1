@@ -1,0 +1,50 @@
+<!--miniprogram/pages/interest/interest.wxml-->
+<view class="container">
+
+  
+
+   <view  wx:if="{{login}}">
+
+    <view id="msg8" >
+       <view id="msg9" >
+         话题排行榜
+       </view>
+    </view> 
+     
+    <view  wx:for="{{n}}">          
+        <view id="msg3" > 
+           <view id="msg4">{{item.topic}} </view>  
+           <view id="msg11">{{item.subtopic}} </view>          
+           <view id="msg5"> {{item.likes}} </view> 
+           
+            
+           <view data-id='{{item.topic}}'  bindtap='like1' class="like_box" hover-class="hover2">
+               <image  id ="msg10" src='/images/zan1.png' class="zan_img"></image>
+           </view>   
+  
+        </view>     
+        <view id="msg6" >------------</view> 
+   </view>
+   
+   <view id="msg6" >------------</view> 
+   <view id="msg6" >------------</view> 
+   <view id="msg6" >------------</view> 
+   <view id="msg6" >------------</view> 
+    
+  
+
+
+   <view id="msg2">
+       <navigator  url="../../pages/addIn/addIn" hover-class="hover1" id="msg1"> 
+        我要添加新的学习主题
+      </navigator>
+   </view>
+    
+   <view id="msg6" >------------</view> 
+   <view id="msg6" >------------</view> 
+   
+ 
+
+ </view>
+
+</view>

@@ -1,0 +1,116 @@
+/* miniprogram/pages/interest/interest.wxss */
+page {
+  background:  #eaeaea;
+}
+
+
+#msg1{
+ color: rgb(93, 132, 138);
+ font-size: 34rpx;
+ text-decoration-line: underline;
+}
+
+#msg2{ 
+ height:80rpx;
+ width: 800rpx;
+ background-color: #eaeaea;
+
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+#msg3{
+ height:150rpx;
+ width: 720rpx;
+ background-color: #ffffff;
+ position: relative;
+ top: 80rpx;
+ left: 38rpx;
+ box-shadow: 10rpx 10rpx 0 0 rgb(210, 223, 224)
+}
+
+#msg4{
+ position: relative;
+ top: 35rpx;
+ left: 50rpx;
+ font-size: 35rpx;
+}
+
+#msg5{
+ color:rgb(93, 132, 138);
+ position: relative;
+ top: 20rpx;
+ left:650rpx;
+ font-size: 25rpx;
+}
+
+#msg6{
+
+ height:20rpx; 
+ background-color: #eaeaea;
+ color: #eaeaea;
+}
+
+.hover1{
+  opacity: 0.7;
+  transform: scale(0.95,0.95)
+
+}
+.hover2{
+  opacity: 0.6;
+}
+
+
+#msg7{
+ height:10rpx;
+ width:10rpx;
+ position: relative;
+ top: 0rpx;
+ left:580rpx;
+}
+
+#msg8{
+ width: 800rpx;
+ height:400rpx; 
+ background-color: rgb(93, 132, 138);
+ color: #ffffff;
+ font-size: 100rpx;
+}
+
+#msg9{
+ 
+ position: relative;
+ top: 250rpx;
+ left:50rpx;
+}
+
+#msg10{
+ width: 40rpx;
+ height: 40rpx;
+ opacity: 0.6;
+ position: relative;
+ top: -15rpx;
+ left:600rpx;
+}
+
+#msg11{
+ position: relative;
+ top: 45rpx;
+ left: 50rpx;
+ font-size: 25rpx;
+ color:rgb(219, 177, 38)
+}
+
+
+#msg15{ 
+ color:rgb(93, 132, 138);
+ position: relative;
+ top: 250rpx;
+ text-decoration-line: underline;
+}
+
+
+
+
+

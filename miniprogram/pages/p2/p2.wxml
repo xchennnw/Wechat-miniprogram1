@@ -1,0 +1,45 @@
+<!--miniprogram/pages/p2/p2.wxml-->
+
+<view class="container">
+
+
+   <view  wx:if="{{login}}">
+     
+   
+    <view id="msg8"> 
+       <input id="msg4" type='text' placeholder="输入查询内容" bindinput="getName" />
+       <button id="msg1" bindtap="search1" hover-class="hover1"> 
+         查询
+       </button>
+    </view>
+
+    <view id="msg12"> 
+       *搜索姓名或者技术特长来查看相关同事的信息。
+    </view>
+
+     <view wx:if="{{a==true&&b==false}}"> 
+         <view id="msg10"> 暂无相关信息 </view> 
+     </view>
+
+
+     <view wx:if="{{a&&b}}" wx:for="{{n}}">         
+           <view id="msg11"> 
+             <view id="msg5" >{{item.name}} </view>         
+             <view id="msg2"> 技能：{{item.skill}} </view>         
+           </view>     
+           <view id="msg3"> </view>
+     </view>
+
+     <view id="msg9">
+      <navigator  url="../../pages/p1/p1" hover-class="hover1" id="msg6"> 
+        点此更新我的信息
+      </navigator>
+    </view>
+
+   
+   
+
+   </view>
+   
+
+</view>

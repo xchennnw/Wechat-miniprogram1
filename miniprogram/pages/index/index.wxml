@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="container">
+  
+    <view id="msg7" >
+       <view id="msg8" >
+           欢迎。
+       </view>
+    </view>
+
+
+    <view id="msg1" wx:if="{{login}}"> 
+     当前用户：{{curID}}
+    </view>
+    <view id="msg1" wx:if="{{login==false}}"> 
+     尚未登录。
+    </view>
+
+   
+
+    <navigator  url="../../pages/login/login" hover-class="hover1" id="msg6" wx:if="{{login==false}}"> 
+     登录
+    </navigator>
+
+    <navigator  url="../../pages/login/login" hover-class="hover1" id="msg6" wx:if="{{login}}"> 
+     切换用户
+    </navigator>
+ 
+
+</view>

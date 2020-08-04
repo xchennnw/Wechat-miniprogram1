@@ -1,0 +1,93 @@
+/* miniprogram/pages/login/login.wxss */
+
+page {
+  background:  #eaeaea;
+
+}
+
+#msg1{
+ 
+ color:rgb(93, 132, 138);
+
+ position: relative;
+ top: 150rpx;
+ 
+}
+
+#msg2{
+ height:100rpx; 
+ background-color:#eaeaea ;
+ text-align: center;
+}
+
+#msg3{
+ height:80rpx;
+ width: 500rpx ;
+ background-color: #ffffff ;
+ 
+ position: relative;
+ top: 300rpx;
+ 
+}
+
+#msg4{
+ height:80rpx;
+ width: 500rpx ;
+ background-color: #ffffff ;
+ 
+ position: relative;
+ top: 330rpx;
+}
+
+#msg5{
+ height:300rpx;
+ width: 500rpx ;
+
+ text-align: left;
+ 
+ color:rgb(93, 132, 138);
+
+ position: relative;
+ top: 450rpx;
+ 
+}
+
+#msg6{
+ height:80rpx; 
+ width:150rpx;
+ background-color:  rgb(180, 204, 206);
+ color: #ffffff;
+
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+ position: relative;
+ top: 380rpx;
+ left:0rpx;
+
+ box-shadow: 6rpx 6rpx 0 0 #a1a1a1 
+}
+
+
+#msg7{
+ 
+ color:rgb(93, 132, 138);
+
+ position: relative;
+ top: 800rpx;
+ 
+}
+
+#msg8{
+ color: rgb(93, 132, 138);
+ font-size: 50rpx;
+ text-decoration-line: underline;
+}
+
+
+.hover1{
+  opacity: 0.7;
+  transform: scale(0.95,0.95)
+
+}

@@ -1,0 +1,57 @@
+/**index.wxss**/
+
+page {
+  background:  #eaeaea;
+
+}
+
+#msg1{ 
+ color:rgb(93, 132, 138);
+ position: relative;
+ top: 450rpx;
+ font-size:34rpx;
+}
+#msg2{ 
+ color:rgb(93, 132, 138);
+ position: relative;
+ top: 200rpx;
+ font-size:100rpx;
+}
+
+
+
+#msg6{
+ height:80rpx; 
+ width:600rpx;
+ background-color: rgb(180, 204, 206);
+ color: #ffffff;
+
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+ position: relative;
+ top: 480rpx;
+
+ box-shadow: 6rpx 6rpx 0 0 #a1a1a1 
+}
+
+#msg7{
+ width: 800rpx;
+ height:400rpx; 
+ background-color: rgb(93, 132, 138);
+ color: #ffffff;
+ font-size: 100rpx;
+}
+
+#msg8{
+ position: relative;
+ top: 250rpx;
+ left:120rpx;
+}
+
+.hover1{
+  opacity: 0.7;
+  transform: scale(0.95,0.95)
+
+}

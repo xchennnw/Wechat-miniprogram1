@@ -1,0 +1,44 @@
+<!--miniprogram/pages/login/login.wxml-->
+<view class="container">
+
+
+
+    <view id="msg1" wx:if="{{login==false}}"> 
+     登录
+    </view>
+    <view id="msg1" wx:if="{{login}}"> 
+     切换用户
+    </view>
+
+    <input id="msg3" type='text' placeholder="请输入ID" bindinput="getID" />
+    <input id="msg4" type='text' placeholder="请输入姓名" bindinput="getName" />
+
+
+    <button id="msg6" bindtap="search1" hover-class="hover1"> 
+     OK
+    </button>
+
+    <view  wx:if="{{well}}" wx:for="{{n}}" id="msg5"> 
+    
+           <view>hi，</view> 
+           <view>{{item.name}}</view> 
+           <view>欢迎登录。</view>  
+
+           <view bindtap="switch"  hover-class="hover1" id="msg8"> 
+            进入
+           </view>
+        
+     
+    </view>
+
+    <view  wx:if="{{well==false}}" id="msg5"> 
+    
+           <view>信息错误，登录失败。</view>     
+     
+    </view>
+
+    
+   
+
+</view>
+

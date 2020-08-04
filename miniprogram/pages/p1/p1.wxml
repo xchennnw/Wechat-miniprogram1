@@ -1,0 +1,34 @@
+<!--miniprogram/pages/p1/p1.wxml-->
+<view class="container">
+
+
+     <view id="msg1"> 
+     更新我的信息
+     </view>
+
+
+     <view id="msg2"> 
+
+     <checkbox-group  bindchange="checkboxChange">
+       <label class="checkbox" wx:for="{{items}}">
+         <checkbox value="{{item.value}}" />{{item.value}}
+       </label>
+     </checkbox-group>
+
+     </view>
+
+
+     <button id="msg4" bindtap="update1" hover-class="hover1"> 
+     提交
+     </button>
+
+     <view  wx:if="{{a}}" id="msg5"> 
+    
+           <view>信息已修改</view>     
+     
+    </view>
+   
+
+   
+
+</view>
